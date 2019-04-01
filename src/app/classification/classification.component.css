@@ -1,0 +1,11 @@
+.col1 {
+  width: 25%;
+  text-align: left;
+  vertical-align: middle;
+    font-size: 11px;
+  color: black;
+}
+.col2 {
+  width: 75%;
+  float: left;
+}

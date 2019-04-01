@@ -1,0 +1,23 @@
+<div class="container">
+  <table class="table">
+    <tr *ngFor="let item of classificationArray">
+      <td class="col1">
+        {{ item.race }} Total : {{ item.total | number: "1.0-0" }}
+      </td>
+      <td class="col2">
+        <app-progressbar
+          [currentValue]="item.boys"
+          [title]="'Boys'"
+          [type]="'progress-bar progress-bar-info progress-bar-striped active'"
+        ></app-progressbar>
+        <app-progressbar
+          [currentValue]="item.girls"
+          [title]="'Girls'"
+          [type]="
+            'progress-bar progress-bar-success progress-bar-striped active'
+          "
+        ></app-progressbar>
+      </td>
+    </tr>
+  </table>
+</div>

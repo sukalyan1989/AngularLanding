@@ -1,0 +1,496 @@
+{
+    "d": {
+       "results": [
+          {
+             "__metadata": {
+                "id": "d7407110-6514-48d7-964e-12e8de0533ba",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)",
+                "etag": "\"2\"",
+                "type": "SP.Data.TotalStudentsListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(2)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 2,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100338F65EB78E7D44BAD391E99AB27E0C9",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "School": "Arena Academy",
+             "Girls": "35",
+             "Boys": "45",
+             "Total": "80.0000000000000",
+             "Year": "7",
+             "ID": 2,
+             "Modified": "2019-03-29T06:59:29Z",
+             "Created": "2019-03-29T06:11:42Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "a2ec2b33-42cb-404e-8522-25f78183e8ab"
+          },
+          {
+             "__metadata": {
+                "id": "d49e6a93-0748-498d-a610-c0b63cbc7224",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)",
+                "etag": "\"3\"",
+                "type": "SP.Data.TotalStudentsListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(8)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 8,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100338F65EB78E7D44BAD391E99AB27E0C9",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "School": "Arena Academy",
+             "Girls": "36",
+             "Boys": "54",
+             "Total": "90.0000000000000",
+             "Year": "8",
+             "ID": 8,
+             "Modified": "2019-03-29T07:00:58Z",
+             "Created": "2019-03-29T06:24:47Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "b8d0e7dd-ae3d-43dd-8b51-1c67568b7757"
+          },
+          {
+             "__metadata": {
+                "id": "42eaba08-e151-4e22-944e-23bc11701072",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)",
+                "etag": "\"1\"",
+                "type": "SP.Data.TotalStudentsListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(11)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 11,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100338F65EB78E7D44BAD391E99AB27E0C9",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "School": "Arena Academy",
+             "Girls": "45",
+             "Boys": "55",
+             "Total": "100.000000000000",
+             "Year": "9",
+             "ID": 11,
+             "Modified": "2019-03-29T11:25:55Z",
+             "Created": "2019-03-29T11:25:55Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "344a6159-3fc5-40b5-ad49-6f201762f587"
+          },
+          {
+             "__metadata": {
+                "id": "219178de-2dcf-4ccc-a68f-3f1334ebbeeb",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)",
+                "etag": "\"1\"",
+                "type": "SP.Data.TotalStudentsListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(12)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 12,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100338F65EB78E7D44BAD391E99AB27E0C9",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "School": "Arena Academy",
+             "Girls": "90",
+             "Boys": "20",
+             "Total": "110.000000000000",
+             "Year": "10",
+             "ID": 12,
+             "Modified": "2019-03-29T11:26:40Z",
+             "Created": "2019-03-29T11:26:40Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "efef452c-f7ea-4e94-a8c0-93a3bad4dce0"
+          },
+          {
+             "__metadata": {
+                "id": "fa46dc9f-9c8d-4f67-a218-604f33d15cdf",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)",
+                "etag": "\"1\"",
+                "type": "SP.Data.TotalStudentsListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'7f206a9a-1662-4bab-be90-a95af530943e')/Items(13)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 13,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100338F65EB78E7D44BAD391E99AB27E0C9",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "School": "Arena Academy",
+             "Girls": "60",
+             "Boys": "60",
+             "Total": "120.000000000000",
+             "Year": "11",
+             "ID": 13,
+             "Modified": "2019-03-29T11:27:02Z",
+             "Created": "2019-03-29T11:27:02Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "9568d45f-340c-4e58-b586-464944fb5cee"
+          }
+       ]
+    }
+ }

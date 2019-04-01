@@ -1,0 +1,24 @@
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet" href="https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/school-landing/css/bootstrap.min.css"/>
+<script src="https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/school-landing/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/school-landing/js/bootstrap.min.js"></script> -->
+
+<span class="progress-head">{{ title }}:</span>
+<div class="progress">
+  <div
+    id="dynamic"
+    [className]="type"
+    role="progressbar"
+    [attr.aria-valuenow]="currentValue"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    [style.width.%]="currentValue"
+  >
+    <span id="current-progress">{{ currentValue }}%</span>
+  </div>
+</div>

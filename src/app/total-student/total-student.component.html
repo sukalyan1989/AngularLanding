@@ -1,0 +1,14 @@
+<table class="table">
+  <tr>
+    <th>Year</th>
+    <th>Boys</th>
+    <th>Girls</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let item of totalStudentArray">
+    <td>{{ item.year }}</td>
+    <td>{{ item.boys }}</td>
+    <td>{{ item.girls }}</td>
+    <td>{{ item.total|number:'1.0-0' }}</td>
+  </tr>
+</table>

@@ -1,0 +1,39 @@
+<h2 class="heading">Attendance</h2>
+
+<app-progressbar
+  [currentValue]="attendanceToday.present | number"
+  [title]="'Today'"
+  [type]="'progress-bar progress-bar-success progress-bar-striped active'"
+></app-progressbar>
+
+<app-progressbar
+  [currentValue]="attendanceWeekly.present | number:'1.2-2'"
+  [title]="'Last Week'"
+  [type]="'progress-bar progress-bar-success progress-bar-striped active'"
+></app-progressbar>
+
+<app-progressbar
+  [currentValue]="attendanceOverAll.present|number:'1.2-2'"
+  [title]="'Year To Date'"
+  [type]="'progress-bar progress-bar-success progress-bar-striped active'"
+></app-progressbar>
+<br />
+<h2 class="heading">Persistance Absence</h2>
+
+<app-progressbar
+  [currentValue]="attendanceToday.absent | number"
+  [title]="'Today'"
+  [type]="'progress-bar progress-bar-danger progress-bar-striped active'"
+></app-progressbar>
+
+<app-progressbar
+  [currentValue]="attendanceWeekly.absent | number :'1.2-2'"
+  [title]="'Last Week'"
+  [type]="'progress-bar progress-bar-danger progress-bar-striped active'"
+></app-progressbar>
+
+<app-progressbar
+  [currentValue]="attendanceOverAll.absent|number:'1.2-2'"
+  [title]="'Year To Date'"
+  [type]="'progress-bar progress-bar-danger progress-bar-striped active'"
+></app-progressbar>
