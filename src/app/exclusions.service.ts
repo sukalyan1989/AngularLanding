@@ -8,21 +8,22 @@ export class ExclusionsService {
 
   constructor(private http : HttpClient) { }
 
-  getExclusionData(){
-
-    return this.http.get("assets/exclusion.json");
-  }
-
+  // turn this on for local testing
   // getExclusionData(){
-  //   return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Exclusions')/items?$filter=School eq 'Arena Academy'",{
-  //   headers:new HttpHeaders(
-  //     {
-  //       Accept: "application/json;odata=verbose"
-  //     }
-  //   )
-  // })
-   
+
+  //   return this.http.get("assets/exclusion.json");
   // }
+
+  getExclusionData(){
+    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Exclusions')/items?$filter=School eq 'Arena Academy'",{
+    headers:new HttpHeaders(
+      {
+        Accept: "application/json;odata=verbose"
+      }
+    )
+  })
+   
+  }
   
 }
 export interface exData{

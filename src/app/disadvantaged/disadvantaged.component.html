@@ -1,44 +1,15 @@
-<h2 class="heading">SEND CODES (E AND K)</h2>
-<table class="table">
-  <tr>
-    <th>Girls</th>
-    <th>Boys</th>
-    <th>Total</th>
-  </tr>
-  <tr>
-    <td>{{ disArray[1].girls }}</td>
-    <td>{{ disArray[1].boys }}</td>
-    <td>{{ disArray[1].total | number: "1.0-0" }}</td>
-  </tr>
-</table>
-
-<br />
-<h2 class="heading">SEND CODES (E)</h2>
-<table class="table">
-  <tr>
-    <th>Girls</th>
-    <th>Boys</th>
-    <th>Total</th>
-  </tr>
-  <tr>
-    <td>{{ disArray[0].girls }}</td>
-    <td>{{ disArray[0].boys }}</td>
-    <td>{{ disArray[0].total | number: "1.0-0" }}</td>
-  </tr>
-</table>
-
-<br />
-<h2 class="heading">SEND CODES (K)</h2>
-
-<table class="table">
-  <tr>
-    <th>Girls</th>
-    <th>Boys</th>
-    <th>Total</th>
-  </tr>
-  <tr>
-    <td>{{ disArray[2].girls }}</td>
-    <td>{{ disArray[2].boys }}</td>
-    <td>{{ disArray[2].total | number: "1.0-0" }}</td>
-  </tr>
-</table>
+<div *ngFor="let item of disArray">
+  <h2 class="heading">SEND CODES ({{ item.type }})</h2>
+  <table class="table">
+    <tr>
+      <th>Girls</th>
+      <th>Boys</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>{{ item.girls }}</td>
+      <td>{{ item.boys }}</td>
+      <td>{{ item.total | number: "1.0-0" }}</td>
+    </tr>
+  </table>
+</div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import * as CanvasJS from "src/assets/CanvasJS.min";
 import { TotalStudentService, TotalStudent } from "../total-student.service";
-
+import * as _ from "lodash";
 @Component({
   selector: "app-total-student",
   templateUrl: "./total-student.component.html",
@@ -21,8 +21,6 @@ export class TotalStudentComponent implements OnInit {
 
         this.totalStudentArray.push(totalStudentObj);
       });
-
-      console.log(this.totalStudentArray);
     });
   }
 
