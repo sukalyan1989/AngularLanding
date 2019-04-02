@@ -13,6 +13,7 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { TotalStudentComponent } from './total-student/total-student.component';
 import { ClassificationComponent } from './classification/classification.component';
 import {MatCardModule} from '@angular/material/card';
+import { BoxContainerComponent } from './box-container/box-container.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {MatCardModule} from '@angular/material/card';
     DisadvantagedComponent,
     ProgressbarComponent,
     TotalStudentComponent,
-    ClassificationComponent
+    ClassificationComponent,
+    BoxContainerComponent
   ],
   imports: [
     BrowserModule,
