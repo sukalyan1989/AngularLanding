@@ -1,25 +1,19 @@
-<div class="container">
-  <mat-tab-group animationDuration="0ms">
-    <mat-tab label="About"
-      ><ng-template matTabContent><app-about></app-about></ng-template
-    ></mat-tab>
-    <mat-tab label="Attendence"
-      ><ng-template matTabContent><app-attendence></app-attendence></ng-template
-    ></mat-tab>
-    <mat-tab label="Exclusions"
-      ><ng-template matTabContent><app-exclusions></app-exclusions></ng-template
-    ></mat-tab>
-    <mat-tab label="Disadvantaged"
-      ><ng-template matTabContent
-        ><app-disadvantaged></app-disadvantaged></ng-template
-    ></mat-tab>
-    <mat-tab label="Total Student Numbers"
-      ><ng-template matTabContent
-        ><app-total-student></app-total-student></ng-template
-    ></mat-tab>
-    <mat-tab label="Classification"
-      ><ng-template matTabContent
-        ><app-classification></app-classification></ng-template
-    ></mat-tab>
-  </mat-tab-group>
-</div>
+
+  <div id="sideNavi" [style.right]="0">
+      <div class="side-navi-item-default"></div>
+      <div class="side-navi-item item1" (click)="onClick(1)"><div>Arena</div></div>
+      <div class="side-navi-item item2" (click)="onClick(2)"><div>Central</div></div>
+      <div class="side-navi-item item3"><div>City</div></div>
+     <div class="side-navi-item item4"><div>JQA</div></div>
+     <div class="side-navi-item item5"><div>Nansen</div></div>
+     <div class="side-navi-item item6"><div>Rockwood</div></div>
+     <div class="side-navi-item item7"><div>CORE</div></div>
+  </div>
+  <div class="navComp" [style.width.%]="trayWidth">
+      <app-box-container [schoolName]="school.name" [schoolAddress]="school.address" [schoolPhone]="school.phone"></app-box-container>
+  </div>
+  
+
+
+
+

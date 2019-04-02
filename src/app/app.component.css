@@ -1,22 +1,72 @@
+.side-navi-item.item2 {
+  top: 89px;
+}
 
-/* .container {
+#sideNavi, .side-navi-item, .side-navi-data, .side-navi-tab {
+  margin: 0;
+  padding: 0;
+}
+
+#sideNavi {
+  position: fixed;
+  left: 50px;
+  top: 20%;
+  width: 10%;
+  float: right;
+  font-size: 12px;  
+}
+.navComp{
+  width: 90%;
+  float: right;
   background-color: #706259;
+  height: 700px;
+  overflow: scroll;
+
+}
+.side-navi-item {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  color: #fff;
+  background-color: #732282;
+  cursor: pointer;
 }
 
-.mat-tab-label {
-  background-color: transparent;
-  color: white;
 
-  font-size: 11px;
+.side-navi-item.item1 {
+  top: 0px;
+}
+.side-navi-item.active, .side-navi-item:hover {
+  background-color: #00a19b;
+  color: #fff;
 }
 
-/* Styles for the active tab label */
-/* .mat-tab-label.mat-tab-label-active {
-  background-color: transparent;
-  background-color: #ffa400;
+
+.side-navi-item.item3 {
+  top: 180px;
 }
 
-/* Styles for the ink bar */
-/* .mat-ink-bar {
-  background-color: white;
-}   */
+
+.side-navi-item.item4 {
+  top: 273px;
+}
+
+.side-navi-item.item5 {
+  top: 368px;
+}
+
+.side-navi-item.item6 {
+  top: 457px;
+}
+
+.side-navi-item.item7 {
+  top: 549px;
+}
+.side-navi-item > div {
+  padding-top: 15px;
+  text-align: center;
+}
