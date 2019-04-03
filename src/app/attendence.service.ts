@@ -9,9 +9,10 @@ export class AttendenceService {
 
   //this one can be used for today data as well as weekly or past seven days data
   // turn this on before deploying to sharepoint and turn local testing one off
-  getTodayData() {
+  getTodayData(schoolName) {
+    
     return this.http.get(
-      "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Attendance')/items?$orderBy=Created desc",
+      "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Attendance')/items?$filter=School eq '"+schoolName+"'&$orderBy=Created desc",
       {
         headers: new HttpHeaders({
           Accept: "application/json;odata=verbose"
@@ -21,7 +22,7 @@ export class AttendenceService {
   }
 
   //turn this on for local testing
-  // getTodayData() {
+  // getTodayData(name) {
   //   return   this.http.get("assets/data.json")
   //   }
 

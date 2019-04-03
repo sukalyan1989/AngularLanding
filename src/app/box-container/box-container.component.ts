@@ -7,10 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BoxContainerComponent implements OnInit {
 
-  @Input() schoolName;
-  @Input() schoolAddress;
-  @Input() schoolPhone;
-
+  
+  @Input() schoolInfo;
   constructor() { }
 
   ngOnInit() {

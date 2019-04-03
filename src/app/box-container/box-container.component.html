@@ -1,17 +1,17 @@
 <div class="notes-area-wrap">
   <div class="note-heading-indicate">
       <div class="avatar"> <img alt="" src="https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/school-landing/image/arena.jpg"/> </div>  
-      <h2 class="text-center" style="padding:0;"><i class="fa fa-comments-o"></i> {{schoolName}} </h2> 
-      <p class="text-center">Address : {{schoolAddress}} <br/>Phone : + {{schoolPhone}}</p>                                                                    
+      <h2 class="text-center" style="padding:0;"><i class="fa fa-comments-o"></i> {{schoolInfo.name}} </h2> 
+      <p class="text-center">Address : {{schoolInfo.address}} <br/>Phone : + {{schoolInfo.phone}}</p>                                                                    
   </div>
   </div>
 <div class="container">
   <mat-tab-group animationDuration="0ms">
     <mat-tab label="About"
-      ><ng-template matTabContent><app-about></app-about></ng-template
+      ><ng-template matTabContent><app-about [schoolInfo]="schoolInfo" ></app-about></ng-template
     ></mat-tab>
     <mat-tab label="Attendence"
-      ><ng-template matTabContent><app-attendence></app-attendence></ng-template
+      ><ng-template matTabContent><app-attendence [schoolInfo]="schoolInfo"></app-attendence></ng-template
     ></mat-tab>
     <mat-tab label="Exclusions"
       ><ng-template matTabContent><app-exclusions></app-exclusions></ng-template

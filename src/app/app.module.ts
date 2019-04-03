@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
@@ -14,6 +15,7 @@ import { TotalStudentComponent } from './total-student/total-student.component';
 import { ClassificationComponent } from './classification/classification.component';
 import {MatCardModule} from '@angular/material/card';
 import { BoxContainerComponent } from './box-container/box-container.component';
+import { AttendenceService } from './attendence.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,7 @@ import { BoxContainerComponent } from './box-container/box-container.component';
     HttpClientModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [AttendenceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

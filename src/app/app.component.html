@@ -1,19 +1,21 @@
 
-  <div id="sideNavi" [style.right]="0">
-      <div class="side-navi-item-default"></div>
-      <div class="side-navi-item item1" (click)="onClick(1)"><div>Arena</div></div>
-      <div class="side-navi-item item2" (click)="onClick(2)"><div>Central</div></div>
-      <div class="side-navi-item item3"><div>City</div></div>
-     <div class="side-navi-item item4"><div>JQA</div></div>
-     <div class="side-navi-item item5"><div>Nansen</div></div>
-     <div class="side-navi-item item6"><div>Rockwood</div></div>
-     <div class="side-navi-item item7"><div>CORE</div></div>
-  </div>
-  <div class="navComp" [style.width.%]="trayWidth">
-      <app-box-container [schoolName]="school.name" [schoolAddress]="school.address" [schoolPhone]="school.phone"></app-box-container>
-  </div>
   
-
+<div class="mainContainer" >
+    <div id="sideNavi" >
+        <div class="side-navi-item-default"></div>
+        <div class="side-navi-item item1" (click)="onClick(1)"><div>Arena</div></div>
+        <div class="side-navi-item item2" (click)="onClick(2)"><div>Central</div></div>
+        <div class="side-navi-item item3"><div>City</div></div>
+       <div class="side-navi-item item4"><div>JQA</div></div>
+       <div class="side-navi-item item5"><div>Nansen</div></div>
+       <div class="side-navi-item item6"><div>Rockwood</div></div>
+       <div class="side-navi-item item7"><div>CORE</div></div>
+    </div>
+    <div class="navComp">
+        <app-box-container [schoolInfo]="school"></app-box-container>
+    </div>
+    
+</div>
 
 
 
