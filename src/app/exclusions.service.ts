@@ -14,8 +14,9 @@ export class ExclusionsService {
   //   return this.http.get("assets/exclusion.json");
   // }
 
-  getExclusionData(){
-    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Exclusions')/items?$filter=School eq 'Arena Academy'",{
+  getExclusionData(schoolName){
+    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Exclusions')/items?$filter=School eq '"+schoolName+"'",
+    {
     headers:new HttpHeaders(
       {
         Accept: "application/json;odata=verbose"

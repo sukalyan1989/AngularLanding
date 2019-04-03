@@ -12,8 +12,8 @@ export class DisadvantagedService {
   //   return this.http.get("assets/disadvantaged.json");
   // }
 
-  getDisadvantagedData(){
-    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Disadvantaged')/items?$filter=School eq 'Arena Academy'&$orderBy=SEND_x0020_Code",{
+  getDisadvantagedData(schoolName){
+    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Disadvantaged')/items?$filter=School eq '"+schoolName+"'&$orderBy=SEND_x0020_Code",{
     headers:new HttpHeaders(
       {
         Accept: "application/json;odata=verbose"

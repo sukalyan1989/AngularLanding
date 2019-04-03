@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { ExclusionsService, exData } from '../exclusions.service';
 
@@ -10,6 +10,8 @@ import { ExclusionsService, exData } from '../exclusions.service';
 })
 export class ExclusionsComponent implements OnInit {
 
+  @Input() schoolInfo;
+
   exClusionData:exData={
     FEYD:0,
     FELY:0,
@@ -17,25 +19,36 @@ export class ExclusionsComponent implements OnInit {
     PELY:0
   };
   
-  constructor(exService:ExclusionsService) { 
+  constructor(public exService:ExclusionsService) { 
     
-    //exService.getExclusionData().subscribe((data)=>{console.log(data)});
-  exService.getExclusionData().subscribe(data=>{
-    this.exClusionData={
-      FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
-      FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,
-      PEYD:data["d"].results[0].Permanent_x0020_Exclusions_x0020,
-      PELY:data["d"].results[0].Permanent_x0020_Exclusions_x00200
-    }
-    console.log(this.exClusionData);
-  });
+    
+  
   }
 
   ngOnInit() {
     
-
+    this.exService.getExclusionData(this.schoolInfo).subscribe(data=>{
+      this.exClusionData={
+        FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
+        FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,
+        PEYD:data["d"].results[0].Permanent_x0020_Exclusions_x0020,
+        PELY:data["d"].results[0].Permanent_x0020_Exclusions_x00200
+      }
+      console.log(this.exClusionData);
+    });
   
     
+  }
+  ngOnChanges(){
+    this.exService.getExclusionData(this.schoolInfo).subscribe(data=>{
+      this.exClusionData={
+        FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
+        FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,
+        PEYD:data["d"].results[0].Permanent_x0020_Exclusions_x0020,
+        PELY:data["d"].results[0].Permanent_x0020_Exclusions_x00200
+      }
+      console.log(this.exClusionData);
+    });
   }
 
 

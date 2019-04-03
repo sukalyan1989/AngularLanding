@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit,Input } from "@angular/core";
 import { DisadvantagedService, disadvantaged } from "../disadvantaged.service";
 
 @Component({
@@ -7,9 +7,15 @@ import { DisadvantagedService, disadvantaged } from "../disadvantaged.service";
   styleUrls: ["./disadvantaged.component.css"]
 })
 export class DisadvantagedComponent implements OnInit {
+  @Input() schoolInfo
   disArray=new Array();
-  constructor(disService: DisadvantagedService) {
-    disService.getDisadvantagedData().subscribe(data=>{
+  constructor(public disService: DisadvantagedService) {
+    
+  }
+
+  ngOnInit() {
+
+    this.disService.getDisadvantagedData(this.schoolInfo.name).subscribe(data=>{
       data["d"].results.forEach(x => {
        let disObj:disadvantaged ={
         boys:x.Boys,
@@ -23,6 +29,20 @@ export class DisadvantagedComponent implements OnInit {
       console.log(this.disArray);
     });
   }
+  ngOnChanges() {
 
-  ngOnInit() {}
+    this.disService.getDisadvantagedData(this.schoolInfo.name).subscribe(data=>{
+      data["d"].results.forEach(x => {
+       let disObj:disadvantaged ={
+        boys:x.Boys,
+        girls:x.Girls,
+        type:x.SEND_x0020_Code,
+        total:x.Total
+       }
+       this.disArray.push(disObj);
+        
+      });
+      console.log(this.disArray);
+    });
+  }
 }

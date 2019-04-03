@@ -14,11 +14,11 @@
       ><ng-template matTabContent><app-attendence [schoolInfo]="schoolInfo"></app-attendence></ng-template
     ></mat-tab>
     <mat-tab label="Exclusions"
-      ><ng-template matTabContent><app-exclusions></app-exclusions></ng-template
+      ><ng-template matTabContent><app-exclusions [schoolInfo]="schoolInfo"></app-exclusions></ng-template
     ></mat-tab>
     <mat-tab label="Disadvantaged"
       ><ng-template matTabContent
-        ><app-disadvantaged></app-disadvantaged></ng-template
+        ><app-disadvantaged [schoolInfo]="schoolInfo"></app-disadvantaged></ng-template
     ></mat-tab>
     <mat-tab label="Total Student Numbers"
       ><ng-template matTabContent
