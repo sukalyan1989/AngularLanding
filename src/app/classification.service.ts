@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { HttpClient,HttpHeaders } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
 
 @Injectable({
   providedIn: "root"
@@ -12,20 +12,18 @@ export class ClassificationService {
   //   return this.http.get("assets/classification.json");
   // }
 
-getClassification(){
-  return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Race')/items?$filter=School eq 'Arena Academy'",{
-    headers:new HttpHeaders(
+  getClassification(schoolName) {
+    return this.http.get(
+      "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('Race')/items?$filter=School eq '" +
+        schoolName +
+        "'",
       {
-        Accept: "application/json;odata=verbose"
+        headers: new HttpHeaders({
+          Accept: "application/json;odata=verbose"
+        })
       }
-    )
-  })
-
-}
-
-
-
-  
+    );
+  }
 }
 export interface Classification {
   race: string;

@@ -11,8 +11,8 @@ export class TotalStudentService {
   // getTotalStudents(){
   //  return this.http.get("assets/totalstudent.json");
   // }
- getTotalStudents(){
-    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('TotalStudents')/items?$filter=School eq 'Arena Academy'",{
+ getTotalStudents(schoolName){
+    return this.http.get("https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/lists/getByTitle('TotalStudents')/items?$filter=School eq '"+schoolName+"'",{
     headers:new HttpHeaders(
       {
         Accept: "application/json;odata=verbose"

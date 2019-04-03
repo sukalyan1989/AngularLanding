@@ -27,20 +27,20 @@ export class ExclusionsComponent implements OnInit {
 
   ngOnInit() {
     
-    this.exService.getExclusionData(this.schoolInfo).subscribe(data=>{
-      this.exClusionData={
-        FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
-        FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,
-        PEYD:data["d"].results[0].Permanent_x0020_Exclusions_x0020,
-        PELY:data["d"].results[0].Permanent_x0020_Exclusions_x00200
-      }
-      console.log(this.exClusionData);
-    });
+    // this.exService.getExclusionData(this.schoolInfo.name).subscribe(data=>{
+    //   this.exClusionData={
+    //     FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
+    //     FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,
+    //     PEYD:data["d"].results[0].Permanent_x0020_Exclusions_x0020,
+    //     PELY:data["d"].results[0].Permanent_x0020_Exclusions_x00200
+    //   }
+    //   console.log(this.exClusionData);
+    // });
   
     
   }
   ngOnChanges(){
-    this.exService.getExclusionData(this.schoolInfo).subscribe(data=>{
+    this.exService.getExclusionData(this.schoolInfo.name).subscribe(data=>{
       this.exClusionData={
         FEYD:data["d"].results[0].Fixed_x0020_Year_x0020_to_x0020_,
         FELY:data["d"].results[0].Fixed_x0020_Last_x0020_Year,

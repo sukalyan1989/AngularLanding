@@ -22,11 +22,11 @@
     ></mat-tab>
     <mat-tab label="Total Student Numbers"
       ><ng-template matTabContent
-        ><app-total-student></app-total-student></ng-template
+        ><app-total-student [schoolInfo]="schoolInfo"></app-total-student></ng-template
     ></mat-tab>
     <mat-tab label="Classification"
       ><ng-template matTabContent
-        ><app-classification></app-classification></ng-template
+        ><app-classification [schoolInfo]="schoolInfo"></app-classification></ng-template
     ></mat-tab>
   </mat-tab-group>
 </div>
