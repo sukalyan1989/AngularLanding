@@ -43,7 +43,9 @@ export class AppComponent {
             address:"Beeches Road,Birmingham,West Midlands,B42 2PY",
             phone:"0121 729 7310",
             hmName:"Mr. Arena",
-            hmEmail:"arena@school.com"
+            hmEmail:"arena@school.com",
+            url:"http://www.iworkscorp.com/wp-content/uploads/2015/01/Lockheed-Martin-Logo.png"
+
             },
             {
               id:2,
@@ -51,7 +53,8 @@ export class AppComponent {
               address:"Salt Lake City Kolkata",
               phone:"123 456 789",
               hmName:"Mr. Central",
-              hmEmail:"central@school.com"
+              hmEmail:"central@school.com",
+              url:"http://www.climat.com.au/wp-content/themes/climat/images/carrier_logo.png"
             }
         
         ]
