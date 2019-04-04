@@ -11,19 +11,19 @@
 }
 
 #sideNavi {
-  position: fixed;
+  position: absolute;
   left: 50px;
   top: 20%;
   width: 10%;
-  float: right;
+
   font-size: 12px;
 }
 .navComp {
-  width: 90%;
+  width: 94%;
   float: right;
-  background-color: #706259;
+  
   height: 700px;
-  overflow: scroll;
+
 }
 .side-navi-item {
   position: relative;
