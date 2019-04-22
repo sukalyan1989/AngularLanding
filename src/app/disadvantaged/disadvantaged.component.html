@@ -1,15 +1,75 @@
-<div *ngFor="let item of disArray">
-  <h2 class="heading">SEND CODES ({{ item.type }})</h2>
-  <table class="table">
-    <tr>
-      <th>Girls</th>
-      <th>Boys</th>
-      <th>Total</th>
-    </tr>
-    <tr>
-      <td>{{ item.girls }}</td>
-      <td>{{ item.boys }}</td>
-      <td>{{ item.total | number: "1.0-0" }}</td>
-    </tr>
-  </table>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 text-center">SEND CODE (E)</div>
+    <div class="col-md-4 text-center">SEND CODE (E & K)</div>
+    <div class="col-md-4 text-center">SEND CODE (K)</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div *ngIf="chart">
+        <canvas id="canvas1" style="width:33%;height:auto">{{ chart }}</canvas>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div *ngIf="chart">
+        <canvas id="canvas2" style="width:33%;height:auto">{{ chart }}</canvas>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div *ngIf="chart">
+        <canvas id="canvas3" style="width:33%;height:auto">{{ chart }}</canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-3 text-center">Boys</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(56, 216, 212,1)"
+          ></div>
+        </div>
+        <div class="col-md-3 text-center">Girls</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(238, 74, 145, 1)"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-3 text-center">Boys</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(56, 216, 212,1)"
+          ></div>
+        </div>
+        <div class="col-md-3 text-center">Girls</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(238, 74, 145, 1)"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-3 text-center">Boys</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(56, 216, 212,1)"
+          ></div>
+        </div>
+        <div class="col-md-3 text-center">Girls</div>
+        <div class="col-md-3">
+          <div
+            style="width: 40px;height:15px; background-color: rgba(238, 74, 145, 1)"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

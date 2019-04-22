@@ -28,6 +28,7 @@ import { AttendenceService } from './attendence.service';
     TotalStudentComponent,
     ClassificationComponent,
     BoxContainerComponent
+    
   ],
   imports: [
     BrowserModule,
