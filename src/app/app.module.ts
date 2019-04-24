@@ -16,6 +16,8 @@ import { ClassificationComponent } from './classification/classification.compone
 import {MatCardModule} from '@angular/material/card';
 import { BoxContainerComponent } from './box-container/box-container.component';
 import { AttendenceService } from './attendence.service';
+import { MyChartComponent } from './my-chart/my-chart.component';
+import{ChartsModule} from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { AttendenceService } from './attendence.service';
     ProgressbarComponent,
     TotalStudentComponent,
     ClassificationComponent,
-    BoxContainerComponent
+    BoxContainerComponent,
+    MyChartComponent
     
   ],
   imports: [
@@ -35,7 +38,8 @@ import { AttendenceService } from './attendence.service';
     BrowserAnimationsModule,
     MatTabsModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    ChartsModule
   ],
   providers: [AttendenceService],
   bootstrap: [AppComponent]

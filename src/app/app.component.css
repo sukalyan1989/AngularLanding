@@ -21,9 +21,8 @@
 .navComp {
   width: 94%;
   float: right;
-  
-  height: 700px;
 
+  height: 700px;
 }
 .side-navi-item {
   position: relative;
@@ -70,8 +69,6 @@
   padding-top: 15px;
   text-align: center;
 }
- .mainContainer {
-  
-
+.mainContainer {
   position: fixed;
-} 
+}

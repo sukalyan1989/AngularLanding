@@ -15,19 +15,7 @@ export class TotalStudentComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.totalStudentArray=[];
-    // this.tsService.getTotalStudents(this.schoolInfo.name).subscribe(data => {
-    //   data["d"].results.forEach(x => {
-    //     let totalStudentObj: TotalStudent = {
-    //       year: x.Year,
-    //       boys: x.Boys,
-    //       girls: x.Girls,
-    //       total: x.Total
-    //     };
-
-    //     this.totalStudentArray.push(totalStudentObj);
-    //   });
-    // });
+ 
   }
 
   ngOnChanges() {
