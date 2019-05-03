@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-coreabout',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./coreabout.component.css']
 })
 export class CoreaboutComponent implements OnInit {
-
+  @Input() allSchoolInfo;
   constructor() { }
 
   ngOnInit() {

@@ -1,3 +1,34 @@
-<p>
-  coreabout works!
-</p>
+<div class="container heading2">
+  <div *ngFor="let item of allSchoolInfo">
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <h4>
+
+          {{item.name}}
+        </h4>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h6>Head Teacher Name :</h6>
+      </div>
+      <div class="col-md-6">{{ item.hmName }}</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h6>Head Teacher Email Address :</h6>
+      </div>
+      <div class="col-md-6">{{ item.hmEmail }}</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h6>Head Teacher Mobile No :</h6>
+      </div>
+      <div class="col-md-6">{{ item.hmMobile }}</div>
+    </div>
+
+  </div>
+
+</div>

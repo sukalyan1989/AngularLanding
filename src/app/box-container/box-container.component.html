@@ -1,6 +1,6 @@
 <div class="container">
   <div class="notes-area-wrap">
-    <div class="note-heading-indicate">
+    <div class="note-heading-indicate" *ngIf="!isCORE">
       <div class="avatar"><img alt="" [src]="schoolInfo.url" /></div>
       <!-- <h2 class="text-center" style="padding:0;"><i class="fa fa-comments-o"></i> {{schoolInfo.name}} </h2>  -->
       <p class="text-center">
@@ -16,7 +16,7 @@
     <mat-tab label="About"
       ><ng-template matTabContent
         ><app-about *ngIf="!isCORE" [schoolInfo]="schoolInfo"></app-about>
-        <app-coreabout *ngIf="isCORE"></app-coreabout>
+        <app-coreabout *ngIf="isCORE" [allSchoolInfo]="allSchoolInfo"></app-coreabout>
         </ng-template
     ></mat-tab>
     <mat-tab label="Attendence"

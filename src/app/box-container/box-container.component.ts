@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BoxContainerComponent implements OnInit {
 
-  
+  @Input() allSchoolInfo;
   @Input() schoolInfo;
   @Input() isCORE:boolean;
   constructor() { }

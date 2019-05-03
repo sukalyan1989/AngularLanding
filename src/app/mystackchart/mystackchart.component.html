@@ -1,18 +1,11 @@
-<p>
-  mystackchart works!
-</p>
 <div>
-  <div>
-    <div style="display: inline-block">
-      <canvas
-        baseChart
-        [data]="ChartData"
-        [labels]="ChartLabels"
-        [chartType]="ChartType"
-        [legend]="ChartLegend"
-        [options]="ChartOptions"
-      >
-      </canvas>
-    </div>
+  <div style="display: block">
+    <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType">
+    </canvas>
   </div>
 </div>

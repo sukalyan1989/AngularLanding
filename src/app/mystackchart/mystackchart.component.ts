@@ -7,56 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MystackchartComponent implements OnInit {
 
-public ChartLabels = [];
-public ChartType='bar';
-public ChartLegend=false;
-public ChartData=[{
-  label: 'Dataset 1',
-  backgroundColor: 'rgb(0,0,255)',
-  data: [
-    10,
-    10,
-    10,
-    10,
-    10,
-    10,
-    10
-  ]
-}, {
-  label: 'Dataset 2',
-  backgroundColor: 'rgb(0,255,0)',
-  data: [
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20
-  ]
-}, {
-  label: 'Dataset 3',
-  backgroundColor: 'rgb(255,0,0)',
-  data: [
-    30,
-    30,
-    30,
-    30,
-    30,
-    30,
-    30
-  ]
-}]
-public ChartOptions={scales: {
-  xAxes: [{
-    stacked: true,
-  }],
-  yAxes: [{
-    stacked: true
-  }]
-}
-}
-
+  public barChartOptions = {
+    stacked100:{enable:true},
+    scaleShowVerticalLines: false,
+    responsive: true,
+    scales: {
+      xAxes: [{ stacked: true ,display:false}],
+      yAxes: [{ stacked: true }]
+    }
+  };
+  public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  public barChartType = 'horizontalBar';
+  public barChartLegend = true;
+  public barChartData = [
+    {data: [65, 10, 70, 30, 50, 30, 40], label: 'Series A'},
+    {data: [25, 75, 20, 40, 25, 28, 45], label: 'Series B'},
+    {data: [10, 15, 10, 30, 25, 42, 15], label: 'Series C'}
+  ];
   constructor() {
     
    }
