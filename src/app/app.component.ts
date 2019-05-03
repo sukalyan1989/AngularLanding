@@ -33,6 +33,7 @@ import {
 })
 export class AppComponent {
   isOpen = false;
+  coreClicked=false;
 
   school = {
     id: 1,
@@ -130,5 +131,9 @@ export class AppComponent {
   onClick(id: any) {
     this.school = this.schools.find(c => c.id == id);
     this.isOpen = !this.isOpen;
+    this.coreClicked=false;
+  }
+  onClickCore(){
+    this.coreClicked=true;
   }
 }

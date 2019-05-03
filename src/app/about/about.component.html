@@ -11,4 +11,21 @@
     <div class="col-md-6"><h4>Head Teacher Mobile No :</h4></div>
     <div class="col-md-6">{{ schoolInfo.hmMobile }}</div>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div id="twitbox">
+        <ngx-twitter-timeline
+          [data]="twitterObj"
+          [opts]="{
+            tweetLimit: 5,
+            height: 150,
+            theme: 'dark',
+            chrome: ['nofooter']
+          }"
+        >
+        </ngx-twitter-timeline>
+      </div>
+    </div>
+    <div class="col-md-6"></div>
+  </div>
 </div>

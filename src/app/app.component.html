@@ -1,14 +1,22 @@
 <div id="sideNavi">
   <div class="side-navi-item-default"></div>
   <div class="side-navi-item item1" (click)="onClick(1)"><div>Arena</div></div>
-  <div class="side-navi-item item2" (click)="onClick(2)"><div>Central</div></div>
+  <div class="side-navi-item item2" (click)="onClick(2)">
+    <div>Central</div>
+  </div>
   <div class="side-navi-item item3" (click)="onClick(4)"><div>City</div></div>
   <div class="side-navi-item item4" (click)="onClick(5)"><div>JQA</div></div>
   <div class="side-navi-item item5" (click)="onClick(6)"><div>Nansen</div></div>
-  <div class="side-navi-item item6" (click)="onClick(3)"><div>Rockwood</div>
+  <div class="side-navi-item item6" (click)="onClick(3)">
+    <div>Rockwood</div>
   </div>
-  <div class="side-navi-item item7"><div>CORE</div></div>
+  <div class="side-navi-item item7" (click)="onClickCore()">
+    <div>CORE</div>
+  </div>
 </div>
 <div class="navComp">
-  <app-box-container [schoolInfo]="school"></app-box-container>
+  <app-box-container
+    [schoolInfo]="school"
+    [isCORE]="coreClicked"
+  ></app-box-container>
 </div>

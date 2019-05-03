@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
+import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
 
 
 import { AppComponent } from './app.component';
@@ -18,6 +19,14 @@ import { BoxContainerComponent } from './box-container/box-container.component';
 import { AttendenceService } from './attendence.service';
 import { MyChartComponent } from './my-chart/my-chart.component';
 import{ChartsModule} from 'ng2-charts';
+import { TwitterFeedComponent } from './twitter-feed/twitter-feed.component';
+import { CoreaboutComponent } from './coreabout/coreabout.component';
+import { CoreattendenceComponent } from './coreattendence/coreattendence.component';
+import { CoreexclusionsComponent } from './coreexclusions/coreexclusions.component';
+import { CoredisadvantagedComponent } from './coredisadvantaged/coredisadvantaged.component';
+import { CoretotalstudentComponent } from './coretotalstudent/coretotalstudent.component';
+import { CoreclassificationComponent } from './coreclassification/coreclassification.component';
+import { MystackchartComponent } from './mystackchart/mystackchart.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +39,15 @@ import{ChartsModule} from 'ng2-charts';
     TotalStudentComponent,
     ClassificationComponent,
     BoxContainerComponent,
-    MyChartComponent
+    MyChartComponent,
+    TwitterFeedComponent,
+    CoreaboutComponent,
+    CoreattendenceComponent,
+    CoreexclusionsComponent,
+    CoredisadvantagedComponent,
+    CoretotalstudentComponent,
+    CoreclassificationComponent,
+    MystackchartComponent
     
   ],
   imports: [
@@ -39,7 +56,8 @@ import{ChartsModule} from 'ng2-charts';
     MatTabsModule,
     HttpClientModule,
     MatCardModule,
-    ChartsModule
+    ChartsModule,
+    NgxTwitterTimelineModule
   ],
   providers: [AttendenceService],
   bootstrap: [AppComponent]

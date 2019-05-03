@@ -15,37 +15,48 @@
   <mat-tab-group animationDuration="0ms">
     <mat-tab label="About"
       ><ng-template matTabContent
-        ><app-about [schoolInfo]="schoolInfo"></app-about></ng-template
+        ><app-about *ngIf="!isCORE" [schoolInfo]="schoolInfo"></app-about>
+        <app-coreabout *ngIf="isCORE"></app-coreabout>
+        </ng-template
     ></mat-tab>
     <mat-tab label="Attendence"
       ><ng-template matTabContent
-        ><app-attendence
+        ><app-attendence *ngIf="!isCORE"
           [schoolInfo]="schoolInfo"
-        ></app-attendence></ng-template
+        ></app-attendence>
+        <app-coreattendence *ngIf="isCORE"></app-coreattendence>
+        </ng-template
     ></mat-tab>
     <mat-tab label="Exclusions"
       ><ng-template matTabContent
-        ><app-exclusions
+        ><app-exclusions *ngIf="!isCORE"
           [schoolInfo]="schoolInfo"
-        ></app-exclusions></ng-template
+        ></app-exclusions>
+        <app-coreexclusions *ngIf="isCORE"></app-coreexclusions>
+        </ng-template
     ></mat-tab>
     <mat-tab label="Disadvantaged"
       ><ng-template matTabContent
-        ><app-disadvantaged
+        ><app-disadvantaged *ngIf="!isCORE"
           [schoolInfo]="schoolInfo"
-        ></app-disadvantaged></ng-template
+        ></app-disadvantaged>
+        <app-coredisadvantaged *ngIf="isCORE"></app-coredisadvantaged></ng-template
     ></mat-tab>
     <mat-tab label="Total Student Numbers"
       ><ng-template matTabContent
         ><app-total-student
-          [schoolInfo]="schoolInfo"
-        ></app-total-student></ng-template
+          [schoolInfo]="schoolInfo" *ngIf="!isCORE"
+        ></app-total-student>
+        <app-coretotalstudent *ngIf="isCORE"></app-coretotalstudent>
+        </ng-template
     ></mat-tab>
     <mat-tab label="Classification"
       ><ng-template matTabContent
         ><app-classification
-          [schoolInfo]="schoolInfo"
-        ></app-classification></ng-template
+          [schoolInfo]="schoolInfo" *ngIf="!isCORE"
+        ></app-classification>
+        <app-coreclassification *ngIf="isCORE"></app-coreclassification>
+        </ng-template
     ></mat-tab>
   </mat-tab-group>
 </div>

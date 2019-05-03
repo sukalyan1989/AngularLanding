@@ -9,9 +9,10 @@ export class BoxContainerComponent implements OnInit {
 
   
   @Input() schoolInfo;
+  @Input() isCORE:boolean;
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }
