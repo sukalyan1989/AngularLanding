@@ -28,13 +28,5 @@ export class CoreexclusionsComponent implements OnInit {
     });
   }
 
-//   getPercentage(items:any[]):any[]{
-// const total = _.sum(items);
-// var x = _.map(items,(n)=>{
-//   return (n/total)*100
-// });
-// console.log(x); 
 
-// return x
-//   }
 }
