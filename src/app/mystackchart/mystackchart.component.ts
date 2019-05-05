@@ -8,11 +8,9 @@ import { COREExclusionData } from "../core.service";
   styleUrls: ["./mystackchart.component.css"]
 })
 export class MystackchartComponent implements OnInit {
- 
   @Input() graphDataSet;
   @Input() labelDataSet;
-  public barChartOptions={
-    stacked100: { enable: true },
+  public barChartOptions = {
     scaleShowVerticalLines: false,
     responsive: true,
     scales: {
@@ -20,12 +18,14 @@ export class MystackchartComponent implements OnInit {
       yAxes: [{ stacked: true }]
     }
   };
-  
+
   public barChartType = "horizontalBar";
-  public barChartLegend=true;
+  public barChartLegend = true;
 
   constructor() {}
 
-  ngOnInit() {}
-  ngOnChanges() { }
+  ngOnInit() {
+    this.graphDataSet=[{data:[0],label:""}]
+  }
+  ngOnChanges() {}
 }

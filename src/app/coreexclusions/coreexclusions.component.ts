@@ -8,13 +8,14 @@ import * as _ from "lodash";
   styleUrls: ["./coreexclusions.component.css"]
 })
 export class CoreexclusionsComponent implements OnInit {
+  subscription;
   graphDataSet = [];
   labelDataSet = [];
   
   constructor(private core: COREService) {}
 
   ngOnInit() {
-    this.core.getCoreExclusions().subscribe(data => {
+  this.subscription=  this.core.getCoreExclusions().subscribe(data => {
       this.graphDataSet = [
         { data: _.map(data, "Arena") , label: "Arena" },
         { data: _.map(data, "Central"), label: "Central" },
@@ -24,9 +25,11 @@ export class CoreexclusionsComponent implements OnInit {
         { data: _.map(data, "Rockwood"), label: "Rockwood" }
       ];
       this.labelDataSet=_.map(data,"Type");
-      console.log(this.graphDataSet)
+     
     });
   }
-
+ngOnDestroy(){
+  this.subscription.unsubscribe();
+}
 
 }

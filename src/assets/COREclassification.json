@@ -1,0 +1,206 @@
+{
+    "d": {
+       "results": [
+          {
+             "__metadata": {
+                "id": "4bcca272-213d-4cb8-b7f9-5b39fb27ab88",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)",
+                "etag": "\"1\"",
+                "type": "SP.Data.COREClassificationListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(1)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 1,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100E64C129536D1C14AAEBE57E980A50728",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "ClassificationGroup": "White - White British",
+             "Arena": "5",
+             "Central": "10",
+             "City": "20",
+             "JQA": "30",
+             "Nansen": "25",
+             "Rockwood": "15",
+             "ID": 1,
+             "Modified": "2019-05-05T19:24:50Z",
+             "Created": "2019-05-05T19:24:50Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "1c664dff-8cb0-43b7-8567-e029006c293d"
+          },
+          {
+             "__metadata": {
+                "id": "bb765d81-d522-4b39-91d5-9da67a21ff3c",
+                "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)",
+                "etag": "\"1\"",
+                "type": "SP.Data.COREClassificationListItem"
+             },
+             "FirstUniqueAncestorSecurableObject": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/FirstUniqueAncestorSecurableObject"
+                }
+             },
+             "RoleAssignments": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/RoleAssignments"
+                }
+             },
+             "AttachmentFiles": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/AttachmentFiles"
+                }
+             },
+             "ContentType": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/ContentType"
+                }
+             },
+             "GetDlpPolicyTip": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/GetDlpPolicyTip"
+                }
+             },
+             "FieldValuesAsHtml": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/FieldValuesAsHtml"
+                }
+             },
+             "FieldValuesAsText": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/FieldValuesAsText"
+                }
+             },
+             "FieldValuesForEdit": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/FieldValuesForEdit"
+                }
+             },
+             "File": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/File"
+                }
+             },
+             "Folder": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/Folder"
+                }
+             },
+             "LikedByInformation": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/LikedByInformation"
+                }
+             },
+             "ParentList": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/ParentList"
+                }
+             },
+             "Properties": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/Properties"
+                }
+             },
+             "Versions": {
+                "__deferred": {
+                   "uri": "https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/_api/Web/Lists(guid'ab0bcc85-0fa4-4c60-b467-b457f2e34808')/Items(2)/Versions"
+                }
+             },
+             "FileSystemObjectType": 0,
+             "Id": 2,
+             "ServerRedirectedEmbedUri": null,
+             "ServerRedirectedEmbedUrl": "",
+             "ContentTypeId": "0x0100E64C129536D1C14AAEBE57E980A50728",
+             "Title": null,
+             "ComplianceAssetId": null,
+             "ClassificationGroup": "White - Irish",
+             "Arena": "10",
+             "Central": "15",
+             "City": "35",
+             "JQA": "25",
+             "Nansen": "20",
+             "Rockwood": "30",
+             "ID": 2,
+             "Modified": "2019-05-05T19:25:21Z",
+             "Created": "2019-05-05T19:25:21Z",
+             "AuthorId": 9,
+             "EditorId": 9,
+             "OData__UIVersionString": "1.0",
+             "Attachments": false,
+             "GUID": "591e55bf-d06b-4b5f-925e-88d32ac3732a"
+          }
+       ]
+    }
+ }

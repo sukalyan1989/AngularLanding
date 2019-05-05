@@ -7,13 +7,13 @@ import * as _ from 'lodash';
   styleUrls: ['./coredisadvantaged.component.css']
 })
 export class CoredisadvantagedComponent implements OnInit {
-
+  subscription;
   graphDataSet = [];
   labelDataSet = [];
   constructor(private core : COREService) { }
 
   ngOnInit() {
-    this.core.getCoreDisadvantaged().subscribe(data => {
+   this.subscription= this.core.getCoreDisadvantaged().subscribe(data => {
       this.graphDataSet = [
         { data: _.map(data, "Arena") , label: "Arena" },
         { data: _.map(data, "Central"), label: "Central" },
@@ -23,9 +23,10 @@ export class CoredisadvantagedComponent implements OnInit {
         { data: _.map(data, "Rockwood"), label: "Rockwood" }
       ];
       this.labelDataSet=_.map(data,"Type");
-      console.log(this.graphDataSet)
-      console.log(this.labelDataSet)
+    
     })
   }
-
+ngOnDestroy(){
+this.subscription.unsubscribe();
+}
 }
