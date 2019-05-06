@@ -15,7 +15,12 @@ export class MystackchartComponent implements OnInit {
     responsive: true,
     scales: {
       xAxes: [{ stacked: true, display: false }],
-      yAxes: [{ stacked: true }]
+      yAxes: [{ stacked: true ,ticks:{fontColor:'white'}}]
+    },
+    legend:{
+      labels:{
+        fontColor:'white'
+      }
     }
   };
 
