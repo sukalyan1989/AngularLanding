@@ -1,5 +1,6 @@
 <div class="container">
   <div class="notes-area-wrap">
+
     <div class="note-heading-indicate" *ngIf="!isCORE">
       <div class="avatar"><img alt="" [src]="schoolInfo.url" /></div>
       <!-- <h2 class="text-center" style="padding:0;"><i class="fa fa-comments-o"></i> {{schoolInfo.name}} </h2>  -->
@@ -9,6 +10,21 @@
         Website : {{ schoolInfo.website }}
       </p>
     </div>
+    <div class="note-heading-indicate" *ngIf="isCORE">
+        <div class="avatar"><img alt="" src="https://coreeducationtrust.sharepoint.com/sites/CET_Intranet/school-landing/image/core.jpg" /></div>
+        <!-- <h2 class="text-center" style="padding:0;"><i class="fa fa-comments-o"></i> {{schoolInfo.name}} </h2>  -->
+        <p class="text-center">
+          Address : 55 St Paul's Square, Birmingham, B3 1QS  <br />
+          School Telephone No : 0121 389 2824
+           <br />
+          Website : www.core-education.co.uk
+        </p>
+      </div>
+
+
+
+
+
   </div>
 </div>
 <div class="container">

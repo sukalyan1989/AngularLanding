@@ -13,13 +13,22 @@ export class MystackchartComponent implements OnInit {
   public barChartOptions = {
     scaleShowVerticalLines: false,
     responsive: true,
+    maintainAspectRatio:false,
     scales: {
-      xAxes: [{ stacked: true, display: false }],
-      yAxes: [{ stacked: true ,ticks:{fontColor:'white'}}]
+      xAxes: [{ stacked: true, display: true, ticks: { fontColor: "white" },gridLines:{
+        display:true,
+        color:'white'
+      } }],
+      yAxes: [
+        { stacked: true, display:true ,ticks: { fontColor: "white" }, maxBarThickness: 60,gridLines:{
+          display:true,
+          color:'white'
+        } }
+      ]
     },
-    legend:{
-      labels:{
-        fontColor:'white'
+    legend: {
+      labels: {
+        fontColor: "white"
       }
     }
   };
@@ -30,7 +39,7 @@ export class MystackchartComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.graphDataSet=[{data:[0],label:""}]
+    this.graphDataSet = [{ data: [0], label: "" }];
   }
   ngOnChanges() {}
 }
