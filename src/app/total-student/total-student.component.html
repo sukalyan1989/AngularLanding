@@ -1,4 +1,4 @@
-<table id="allTable" class="table text-center">
+<!-- <table id="allTable" class="table text-center">
   <tr>
     <th>Year</th>
     <th>Chart</th>
@@ -9,4 +9,13 @@
       <my-chart [ChartData]="[[x.boys, x.girls]]"></my-chart>
     </td>
   </tr>
-</table>
+</table> -->
+
+&nbsp;
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 disControl" *ngFor="let x of totalStudentArray">
+      <my-chart [ChartData]="[[x.boys, x.girls]]" [ChartName]="{title:{display:true,text:'Year : '+ x.year,position:'bottom',fontColor:'#fff'}}"></my-chart>
+    </div>
+  </div>
+</div>

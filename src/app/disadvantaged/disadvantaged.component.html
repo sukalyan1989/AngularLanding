@@ -1,4 +1,4 @@
-<table id="disTable" class="table text-center">
+<!-- <table id="disTable" class="table text-center">
   <tr>
     <th>Send Code</th>
     <th>Chart</th>
@@ -6,7 +6,15 @@
   <tr *ngFor="let x of disArray">
     <td>{{ x.type }}</td>
     <td>
-      <my-chart [ChartData]="[[x.boys, x.girls]]"></my-chart>
+     
     </td>
   </tr>
-</table>
+</table> -->
+&nbsp;
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 disControl" *ngFor="let x of disArray">
+      <my-chart [ChartData]="[[x.boys, x.girls]]" [ChartName]="{title:{display:true,text:x.type,position:'bottom',fontColor:'#fff'}}"></my-chart>
+    </div>
+  </div>
+</div>
